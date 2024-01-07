@@ -19,7 +19,7 @@ function Create() {
       });
     return (
       <div className="d-flex w-100 vh-100 justify-content-center align-items-center">
-        <div className="2-50 border bg-secondary text-white p-5">
+        <div className="col-2 border bg-secondary text-white p-5">
           <form onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name</label>
